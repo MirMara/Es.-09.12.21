@@ -1,0 +1,58 @@
+.card-description {
+    width: 300px;
+    height: 400px;
+   border-radius: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    position: relative;
+    margin-top: -20px;
+    z-index: 2;
+}
+
+.price-title {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin-bottom: 14px;
+
+}
+
+.card-title, .price {
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+}
+
+.card-title {
+ text-align: left;
+}
+
+.price {
+text-align: right;
+}
+
+.description {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.pallini {
+    display: flex;
+   flex-wrap: wrap;
+
+}
+
+.colore-pallini {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+
+
