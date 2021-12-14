@@ -7,7 +7,7 @@ const CardDescription = () => (
   <div className="card-description">
     <div className="price-title">
       <p className="card-title">Backpack</p>
-      <p className="price">34$</p>
+      <p className="price">{parseFloat (34+((34*22)/100)).toFixed(2)}$ (IVA inclusa)</p>
     </div>
     <p className="description"> With a concept designed to be easy to understand, RAINS bridge the gap between geography and lifestyle</p>
     <p className="colore-pallini"> Colors </p>
